@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+  }
+  
+  canvas {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%;
+    height: calc(100%); 
+  }
+
+
+  /* DEBUG */
+
+  /*#drawingCanvas {
+    background-color: red;
+    visibility: hidden; 
+
+  }*//*
+  #imageCanvas{
+    background-color:  blue;
+  }*/
+  
