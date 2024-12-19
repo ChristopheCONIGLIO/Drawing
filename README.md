@@ -9,6 +9,9 @@
 ## Description
 Drawing est une application de dessin minimaliste, conçue spécifiquement pour les enfants. Elle offre une interface simple et intuitive permettant aux jeunes utilisateurs d'exprimer leur créativité de manière ludique et sans complexe.
 
+## Usage
+Il suffit de télécharger le dépôt et de lancer le fichier index.html avec un navigateur, comme Google Chrome, pour utiliser l'application.
+
 ## License
 Ce travail est sous licence [Creative Commons Zero (CC0)](https://creativecommons.org/publicdomain/zero/1.0/).
 Vous pouvez copier, modifier, distribuer et réaliser ce travail, même à des fins commerciales, sans avoir à demander la permission.
