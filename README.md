@@ -1,5 +1,4 @@
-![logo](./READMEsrc/logo.png)
-{: style="width: 20%;"}
+![logo](./READMEsrc/logo.png){: style="width: 20%;"}
 
 # Drawing v1.0.0
 
