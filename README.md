@@ -1,4 +1,4 @@
-<img src="./READMEsrc/logo.png" alt="logo" width="200" />
+<img src="./README/logo.png" alt="logo" width="200" />
 
 # Drawing v1.0.0
 
