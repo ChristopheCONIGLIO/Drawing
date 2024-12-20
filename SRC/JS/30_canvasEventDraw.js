@@ -26,13 +26,13 @@ function startDrawing(e) {
   
 canvasDrawing.addEventListener('mousedown', startDrawing);
 canvasDrawing.addEventListener('touchstart', (e) => {
-startDrawing(e);
-e.preventDefault();
+    startDrawing(e);
+    e.preventDefault();
 });
 canvasImage.addEventListener('mousedown', startDrawing);
 canvasImage.addEventListener('touchstart', (e) => {
-startDrawing(e);
-e.preventDefault();
+    startDrawing(e);
+    e.preventDefault();
 });
 
 
@@ -54,6 +54,7 @@ canvasDrawing.addEventListener('touchmove', (e) => {
 draw(e);
 e.preventDefault();
 });
+
 canvasImage.addEventListener('mousemove', draw);
 canvasImage.addEventListener('touchmove', (e) => {
 draw(e);

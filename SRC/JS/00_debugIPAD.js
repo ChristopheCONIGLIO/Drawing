@@ -20,7 +20,8 @@
 
 
 // Intercepter les appels à console.log
-/*(function() {
+/*
+(function() {
     const originalConsoleLog = console.log;
     console.log = function(...args) {
       // Créer un message à partir des arguments passés à console.log
@@ -46,4 +47,5 @@
     const errorMessage = `Error: ${message} at ${source}:${lineno}:${colno}`;
     alert(errorMessage);  // Afficher une alerte avec l'erreur globale
     return true;  // Empêche la propagation de l'erreur dans la console
-  };*/
+  };
+  */

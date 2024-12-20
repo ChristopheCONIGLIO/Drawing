@@ -74,3 +74,15 @@ const buttons = {
     hideLists();
   });
 
+  window.addEventListener('touchstart', (event) => {
+    if (event.target.classList.contains("list-overlay") || event.target.classList.contains("list-content")) {
+      hideLists();
+      event.stopPropagation();
+      event.preventDefault();
+    }
+  });
+  
+
+
+
+
