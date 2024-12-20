@@ -21,6 +21,12 @@ Vous pouvez copier, modifier, distribuer et réaliser ce travail, même à des f
 This work is licensed under the [Creative Commons Zero (CC0) License](https://creativecommons.org/publicdomain/zero/1.0/).
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
 
+## Images de l'application
+
+<img src="./README/image001.png" alt="image app" width="300" />
+<img src="./README/image002.png" alt="image app" width="300" />
+<img src="./README/image003.png" alt="image app" width="300" />
+
 ## Architecture
 L'application est développée en HTML, CSS et JavaScript, sans utilisation de bibliothèques externes. Le code est compact, avec une taille totale d'environ 1 Mo, icône et design inclus, ce qui la rend particulièrement légère.
 
