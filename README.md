@@ -1,4 +1,4 @@
-![logo](./READMEsrc/logo.png){: style="width: 20%;"}
+<img src="./READMEsrc/logo.png" alt="logo" width="200" />
 
 # Drawing v1.0.0
 
