@@ -12,6 +12,10 @@
   z-index: 1000;
 }
 
+body.popup-active {
+  overflow: hidden; /* Désactive le défilement de la page */
+}
+
 /* Contenu de la popup */
 .popup-container {
   background-color: white;

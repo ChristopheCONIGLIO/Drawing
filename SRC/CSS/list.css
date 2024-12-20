@@ -1,30 +1,38 @@
 .bottom-buttons {
+  margin: 0;
+  padding: 0;
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  margin-left: 15px;
   display: flex;
+  max-width: 100%;
+  overflow: hidden;
+
 }
 
+
 .bottom-buttons > * {
-  margin-right: 30px;  /* Espace entre les éléments */
+  margin-right: 40px;  
+}
+@media screen and (max-width: 500px) {
+  .bottom-buttons > * {
+    margin-right: 10px;
+  }
 }
 
 .bottom-buttons button {
   background-color: rgb(255, 255, 255);
   border: none;
-  padding: 10px;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 50px;
-  /*border: 5px solid rgb(203, 203, 203);*/
+  border-radius: 50px;/*
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   width: 80px;
   height: 80px;
-  position: relative;  /* Nécessaire pour positionner l'image d'arrière-plan */
+  position: relative;
 }
 
 .bottom-buttons button::before {
@@ -44,6 +52,10 @@
 button img {
   position: relative;
   z-index: 1;  
+  width: 40px; 
+  height: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .list-content {

@@ -24,7 +24,7 @@ const buttons = {
       button.innerHTML = '';
     } else if (item.tagName === 'IMG') {
       button.style.backgroundColor = '';
-      button.innerHTML = `<img src="${item.src}" alt="Selected" style="width: 40px; height: 40px; object-fit: contain; object-position: center;">`;
+      button.innerHTML = `<img src="${item.src}" alt="Selected">`;
     }
   }
 
