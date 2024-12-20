@@ -45,8 +45,8 @@ L'application est conçue pour fonctionner en local sans besoin d'un serveur web
 1.0.0 : Première version
 
 ## Améliorations à envisager
-1. **Enregistrement local** : Le bouton d'enregistrement ne fonctionne pas en local. Une solution basée sur l'enregistrement en Base64 des calques de dessin pourrait contourner cette limitation.
-2. **Redimensionnement de l'écran** : Lors de la rotation d'un appareil (par exemple, un iPad de portrait à paysage), l'image devrait être redimensionnée correctement sans perte de qualité.
+1. **Enregistrement local** : Le bouton d'enregistrement ne fonctionne pas en local en raison de restrictions de sécurité liées à l'accès aux fichiers. Cependant, il existe une solution simple et efficace pour rendre l'application entièrement compatible en local, sans avoir besoin de serveur dédié. Bien que la mise en place de cette solution prenne un peu de temps, elle reste relativement facile à implémenter. Cette approche consiste à enregistrer les calques de dessin au format Base64, ce qui permet d'intégrer directement les images en JavaScript, évitant ainsi la nécessité de les charger via une URL.
+2. **Redimensionnement de l'écran** : Lors de la rotation d'un appareil (par exemple, un iPad, de portrait à paysage), l'image devrait être redimensionnée correctement sans perte de qualité. Actuellement, le dessin est effacé.
 3. **Qualité des calques** : Les calques de dessin sont actuellement d'une qualité insuffisante, et la transparence sur certains aplats n'est pas parfaite. Une refonte graphique des calques est nécessaire pour améliorer cet aspect.
 4. **Temps de réaction sur vieux matériels** : Le bouton de calque de dessin met quelques secondes à apparaître sur les appareils plus anciens. Un optimisateur de performance serait un bon ajout.
 
