@@ -14,4 +14,5 @@
    targetDiv.style.backgroundRepeat = 'no-repeat';
    ctx.clearRect(0, 0, canvasDrawing.width, canvasDrawing.height);
 }
-applyImageSRC("./SRC/DESSIN/007.png");
+const randomNum = Math.floor(Math.random() * 9) + 1;  
+applyImageSRC(`./SRC/DESSIN/00${randomNum}.png`);  
