@@ -1,6 +1,6 @@
 <img src="./README/logo.png" alt="logo" width="200" />
 
-# Drawing v1.0.0
+# Drawing v1.0.1
 
 **Créateur** : Christophe CONIGLIO
 
@@ -42,6 +42,7 @@ L'application est conçue pour fonctionner en local sans besoin d'un serveur web
 - **Palette de couleurs** : Une large gamme de couleurs est disponible pour permettre une expression visuelle variée.
 
 ## Liste des versions
+1.0.1 : Sélection aléatoire du dessin en ouverture de l'application
 1.0.0 : Première version
 
 ## Améliorations à envisager
