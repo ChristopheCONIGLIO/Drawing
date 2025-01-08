@@ -43,6 +43,7 @@ L'application est conçue pour fonctionner en local sans besoin d'un serveur web
 
 ## Liste des versions
 1.0.1 : Sélection aléatoire du dessin en ouverture de l'application
+
 1.0.0 : Première version
 
 ## Améliorations à envisager
