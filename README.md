@@ -6,7 +6,7 @@
 
 **Contact** : christophe.coniglio@gmail.com
 
-**Date de création** : 19/12/2024
+**Date de création** : 2024/12/19 derniere MAJ le 2025/01/29
 
 ## Description
 Drawing est une application de dessin minimaliste, conçue spécifiquement pour les enfants. Elle offre une interface simple et intuitive permettant aux jeunes utilisateurs d'exprimer leur créativité de manière ludique et sans complexe.
