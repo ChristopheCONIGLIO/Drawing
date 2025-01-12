@@ -1,6 +1,6 @@
 <img src="./README/logo.png" alt="logo" width="200" />
 
-# Drawing v1.0.1
+# Drawing v1.0.2
 
 **Créateur** : Christophe CONIGLIO
 
@@ -42,9 +42,12 @@ L'application est conçue pour fonctionner en local sans besoin d'un serveur web
 - **Palette de couleurs** : Une large gamme de couleurs est disponible pour permettre une expression visuelle variée.
 
 ## Liste des versions
+
+1.0.2 : (2025/01/12) Ajout de deux dessins représentant des lettres, conçues de manière à permettre de dessiner à l'intérieur de ces lettres
+
 1.0.1 : Sélection aléatoire du dessin en ouverture de l'application
 
-1.0.0 : Première version
+1.0.0 : (2024/12/19) Première version
 
 ## Améliorations à envisager
 1. **Enregistrement local** : Le bouton d'enregistrement ne fonctionne pas en local en raison de restrictions de sécurité liées à l'accès aux fichiers. Cependant, il existe une solution simple et efficace pour rendre l'application entièrement compatible en local, sans avoir besoin de serveur dédié. Bien que la mise en place de cette solution prenne un peu de temps, elle reste relativement facile à implémenter. Cette approche consiste à enregistrer les calques de dessin au format Base64, ce qui permet d'intégrer directement les images en JavaScript, évitant ainsi la nécessité de les charger via une URL.
